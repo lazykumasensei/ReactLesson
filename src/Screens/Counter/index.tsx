@@ -9,7 +9,8 @@ const Container = Styled.SafeAreaView`
 const TitleContainer = Styled.View`
     flex: 1;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    background-color: #FF0000;
 `;
 
 const TitleLabel = Styled.Text`
@@ -20,6 +21,7 @@ const CountContainer = Styled.View`
     flex: 2;
     justify-content: center;
     align-items: center;
+    background-color: #00FF00;
 `;
 
 const CountLabel = Styled.Text`
@@ -32,6 +34,7 @@ const ButtonContainer = Styled.View`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: #0000FF;
 `;
 
 interface Props{
