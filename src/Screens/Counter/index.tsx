@@ -33,7 +33,7 @@ const ButtonContainer = Styled.View`
     flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around;qwa
     background-color: #0000FF;
 `;
 
